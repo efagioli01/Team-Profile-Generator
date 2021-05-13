@@ -116,7 +116,8 @@ const appMenu = () => {
 
             }
         }
-    }
+        )}
+    
     const addEngineer = () => {
         inquirer.prompt([
 
@@ -151,7 +152,7 @@ const appMenu = () => {
                 type: "input",
                 name: "email",
                 message: "please enter the engineers email to continue",
-                validate: email => {
+                validate: emailInput => {
                     if (emailInput) {
                         return true
                     } else {
@@ -217,7 +218,7 @@ const appMenu = () => {
                     type: "input",
                     name: "email",
                     message: "please enter the interns email to continue",
-                    validate: email => {
+                    validate: emailInput => {
                         if (emailInput) {
                             return true
                         } else {
@@ -255,12 +256,10 @@ const appMenu = () => {
             }
             fs.writeFileSync(outputPath, render(teamArray), 'utf-8')
         }
-        
+        console.log(outputPath)
     
 
 addManager();
 };
 appMenu();
 
-//gen html 
-//css file in output and dir 

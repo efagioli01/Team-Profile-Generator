@@ -1,5 +1,5 @@
 //link to HTML page
-const generateHTML = require('./src/generateHTML');
+// const generateHTML = require('./src/generateHTML');
 const path = require('path')
 
 //team profiles

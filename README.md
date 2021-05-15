@@ -2,23 +2,27 @@
 
 ## Assignemnt
 
-For the tenth homework assignment in week ten of UNH Full-Stack Coding Bootcamp I was to build a team profile generator
+For the tenth homework assignment in week ten of UNH Full-Stack Coding Bootcamp I was to build a team profile generator to display on an HTML page styled in CSS
 
 
 ## User Story
 
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+```
+AS A manager
+I WANT to generate a webpage that displays my team's basic info
+SO THAT I have quick access to their emails and GitHub profiles
+```
+
 
 ## Description
-The goal of this project was to create a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Our main tasks were to ensure that the acceptance criteria is mwt
 ```
+The goal of this project was to create a Node.js command-line application that takes in information about employees on an engineering team through user prompts, then generates an HTML webpage that displays the information for each employee. 
+```
+
 
 ## Acceptance Criteria
 
-```md
+```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
 THEN an HTML file is generated that displays a nicely formatted team roster based on user input
@@ -39,13 +43,10 @@ THEN I exit the application, and the HTML is generated
 ```
 
 
-
-
-
-
 ## Installation
+```
 
-You will need to clone the respositry from Github to your local machine then open up prefered terminal and navigate to the directory where you cloned the github repository.
+You will need to clone the respositry from Github to your local machine then open up your preferred terminal and navigate to the directory where you cloned the github repository.
 
 You will need:
 
@@ -54,9 +55,11 @@ npm init
 npm install inquirer
 
 install jest for testing
+```
 
 
 ## Built with
+
 
 * HTML
 * CSS
@@ -64,23 +67,24 @@ install jest for testing
 * JavaScript
 * Node.js
 
-## Links
+* uses inquirer
+* uses jest
 
-* [GitHub Repository]()
+## Deployment Links
+
+* [GitHub Repository](https://github.com/efagioli01/team-profile-generator)
 
 
-## Mock-Up
+## Screenshot
 
-The following image shows a mock-up of the generated HTML’s appearance and functionality:
+![screenshot](./images/team.PNG)
 
-![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/10-object-oriented-programming-homework-demo.png)
 
-The styling in the image is just an example, so feel free to add your own.
 
 
 
 ## Video of demo 
-[![VIDEO OF DEMO](https://img.youtube.com/vi/y7-3ZpsTC40/0.jpg)](https://www.youtube.com/watch?v=y7-3ZpsTC40)
+[![VIDEO OF DEMO](https://img.youtube.com/v=s53sVA08CKg.jpg)](https://youtu.be/s53sVA08CKg)
 
 
 

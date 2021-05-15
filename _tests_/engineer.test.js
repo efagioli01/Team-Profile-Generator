@@ -1,12 +1,12 @@
 const Engineer = require('../lib/engineer')
 describe('github', () => {
     it('should return a github URL via getGithub()', () => {
-        const engineer = new Engineer('Bertram Gilfoyle', 666, 'gilfoyle@piedpiper.net', 'gilfoyle')
-        expect(engineer.getGithub()).toEqual('http://www.github.com/gilfoyle')
+        const engineer = new Engineer('Erica Fagioli', 123, 'efagioli01@gmail.com', 'efagioli01')
+        expect(engineer.getGithub()).toEqual('https://github.com/efagioli01')
     })
     it('can set GitHub account via constructor', () => {
-        const engineer = new Engineer('Bertram Gilfoyle', 666, 'gilfoyle@piedpiper.net', 'gilfoyle')
-        expect (engineer.github).toEqual('gilfoyle')
+        const engineer = new Engineer('Erica Fagioli', 123, 'efagioli01@gmail.com', 'efagioli01')
+        expect (engineer.github).toEqual('efagioli01')
     })
 })
 describe('getRole', () => {

@@ -44,12 +44,14 @@ const appMenu = () => {
                     name: "id",
                     type: "input",
                     message: "Enter the managers ID number",
-                    validate: nameInput => {
-                        if (isNaN(nameInput)) {
+                    validate: idInput => {
+                        if (isNaN(idInput)) {
+                            console.log('That is not a number, please enter a number')
                             return false;
-                        } else {
+                        } else if (!idInput) {
+                            return false;
+                        } else
                             return true;
-                        }
                     }
                 },
                 {
@@ -152,8 +154,8 @@ const appMenu = () => {
                 type: "input",
                 name: "email",
                 message: "please enter the engineers email to continue",
-                validate: emailInput => {
-                    if (emailInput) {
+                validate: nameInput => {
+                    if (nameInput) {
                         return true
                     } else {
                         console.log("please enter engineers email to continue")
@@ -218,8 +220,8 @@ const appMenu = () => {
                     type: "input",
                     name: "email",
                     message: "please enter the interns email to continue",
-                    validate: emailInput => {
-                        if (emailInput) {
+                    validate: nameInput => {
+                        if (nameInput) {
                             return true
                         } else {
                             console.log("please enter interns email to continue")

@@ -84,7 +84,8 @@ install jest for testing
 
 
 ## Video of demo 
-[![VIDEO OF DEMO](https://img.youtube.com/v=s53sVA08CKg.jpg)](https://youtu.be/s53sVA08CKg)
+
+[![Demo Video Recording](https://img.youtube.com/vi/s53sVA08CKg0.jpg)](https://www.youtube.com/watch?v=s53sVA08CKg)
 
 
 
